@@ -1,0 +1,26 @@
+.title-p{
+    color: #204051;
+    font-size: 20px;
+    text-align: center;
+}
+.description-p{
+    color: #204051;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+}
+label input,label textarea{
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+}
+#btn{
+    margin-right: 63%;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 15px;
+}

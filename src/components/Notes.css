@@ -1,0 +1,43 @@
+.title{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    background-color:#d3dbff;
+    color: #251f44;
+    margin: 0 0;
+    
+}
+.description{
+    font-style: italic;
+    padding-bottom: .3em;
+    font-size: 1em;
+    padding-left: 3%;
+    background-color: #e3dfc8;
+    line-height: 1.3em;
+    padding-top: 15px;
+
+}
+.list{
+    list-style-type: none;
+    border: 2px solid black;
+    margin-bottom: .6em;
+
+}
+.list img{
+    display:block;
+    float: right;
+    margin: 10px;
+}
+.list img:hover{
+    transform: scale(1.4);
+}
+form{
+    margin-left: 26%;
+    margin-right: auto;
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    form {
+     margin-left: 16%;  
+    }
+}
